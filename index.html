@@ -1,98 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>portfolio</title>
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-
-
-    <!-- icon usage link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-    <link rel="stylesheet" href="./style.css">
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
 
-    <!-- header section -->
-    <div class="header">
-        <a href="#aboutUs">About us</a>
-        <a href="#skills">Skills</a>
-        <a href="#Education">Education</a>
-        <a href="#projects">Projects</a>
-    </div>
+        <i class='bx bx-menu' id="menu-icon"></i>
 
-    <!-- about us section -->
-    <div class="aboutUsContainer" id="aboutUs">
-        <img src="./images/profileImage.jpeg" alt="profile image">
-        <h2>Pradeep Kumar</h2>
-        <p>web developer</p>
-
-        <div class="profileIconsContainer">
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-youtube"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,It's Me</h3>
+            <h1>Sharavana kuamr R G</h1>
+            <h3>And I am a <span>Fullstack Developer</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque optio, fugiat sint mollitia non aliquam in hic reprehenderit animi voluptatem saepe nobis laudantium accusantium ratione, incidunt dolore eos tempore. Dolore!</p>
+            <div class="socialmedia">
+                <a href="https://www.linkedin.com/in/sharavanakumar06"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="https://github.com/Sharavanakumar-Ramalingam"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/just_sharavana/"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="Resume.docx" class="btn">Download CV</a>
         </div>
-    </div>
-    <img class="waveImageBg" src="./images/waveBackground.png">
+        <div class="home-image">
+            <img src="photo.jpg" alt="">
+        </div>
+    </section>
 
-    <!-- skills section -->
-    <p class="skillsTitle" id="skills">Skills</p>
-    <div class="skillsImagesContainer">
-        <img src="https://msatechnosoft.in/blog/wp-content/uploads/2017/04/Web-Design-using-HTML-msa-technosoft.png"
-            alt="skills">
-        <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg" alt="skills">
-        <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1309974/regular_1708x683_cover-0828_AfterAllTheseYearstheWorldisStillPoweredbyCProgramming_Razvan_Newsletter-2b9ea38294bb08c5aea1f0c1cb06732f.png"
-            alt="skills">
-    </div>
+    <!--about section-->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="photo.jpg" alt="">
+        </div>
 
-    <!-- education section -->
-    <div class="educationContainer">
-        <p id="Education">Education</p>
-        <table border="1">
-            <tr>
-                <td>Education</td>
-                <td>Institute Name</td>
-                <td>Grade</td>
-            </tr>
-            <tr>
-                <td>10th</td>
-                <td>MHSFN</td>
-                <td>460</td>
-            </tr>
-            <tr>
-                <td>12th</td>
-                <td>SVB</td>
-                <td>467</td>
-            </tr>
-            <tr>
-                <td>B.E / ECE</td>
-                <td>KNCET</td>
-                <td>8.4</td>
-            </tr>
-        </table>
-    </div>
+        <div class="about-content">
+            <h2 class="heading">About<span>Me</span></h2>
+            <h3>Fullstack Developer</h3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quas eius architecto recusandae animi commodi deleniti minus, at facere magnam illum aliquam praesentium autem! Nisi blanditiis accusantium in quam commodi.</P>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
 
-
-    <!-- projects section -->
-
-    <p class="skillsTitle" id="projects">Projects</p>
-    <div class="skillsImagesContainer">
-        <img src="https://msatechnosoft.in/blog/wp-content/uploads/2017/04/Web-Design-using-HTML-msa-technosoft.png"
-            alt="skills">
-        <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg" alt="skills">
-        <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1309974/regular_1708x683_cover-0828_AfterAllTheseYearstheWorldisStillPoweredbyCProgramming_Razvan_Newsletter-2b9ea38294bb08c5aea1f0c1cb06732f.png"
-            alt="skills">
-    </div>
-
-    <!-- footer section -->
-    <div class="footerSection">
-        <p> Designed and developed by Karthik</p>
-    </div>
-
+    <!--project section-->
+    <section class="projects" id="projects">
+        <h2 class="heading">My<span>Projects</span></h2>
+        <div class="project-container" id="project-container">
+            <div class="project-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Ecommerce site</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt a molestias harum illo porro perferendis mollitia aut tempora veritatis! Ab deleniti provident voluptatibus, unde vitae pariatur? Consectetur dolorem cum alias.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="project-box">
+                <i class='bx bx-capsule'></i>
+                <h3>Medical Chatbot</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt a molestias harum illo porro perferendis mollitia aut tempora veritatis! Ab deleniti provident voluptatibus, unde vitae pariatur? Consectetur dolorem cum alias.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="project-box">
+                <i class='bx bx-chat'></i>
+                <h3>Mini Chatroom</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt a molestias harum illo porro perferendis mollitia aut tempora veritatis! Ab deleniti provident voluptatibus, unde vitae pariatur? Consectetur dolorem cum alias.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!--contact section-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me</span></h2>
+        <form action="send_email.php" method="post">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Messsage"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <!--footer section-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2024 by Sharavana kumar | All Rights Reserverd</p>
+        </div>
+    </footer>
+    <!--Scroll reavel-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--custom js-->
+    <script src="script.js"></script>
 </body>
-
 </html>
