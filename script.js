@@ -44,10 +44,9 @@ ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-image, .project-container, .contact form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-image', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
-
-// Smooth scrolling for anchor links
-Let menuIcon=document.querySelector('#menu-icon');
-Let navbar=document.querySelector('.navbar');
+/*toogle icon*/
+let menuIcon=document.querySelector('#menu-icon');
+let navbar=document.querySelector('.navbar');
 
 menuIcon.onclick=() =>{
     menuIcon.classList.toggle('bxs-x-circle');
