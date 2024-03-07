@@ -264,6 +264,10 @@ span{
         border-top:.1rem solid rgba(0,0,0,.2);
         box-shadow:0 .5rem 1rem rgba(0,0,0,.2);
     }
+    .navbar a{
+        display:block;
+        font-sixe:2rem;
+        margin:3rem 0;
 }
 
 
