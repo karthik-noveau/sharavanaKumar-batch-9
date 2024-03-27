@@ -3,8 +3,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve form data
     $fullName = $_POST["fullName"];
     $email = $_POST["email"];
-    $mobileNumber = $_POST["mobileNumber"];
-    $subject = $_POST["subject"];
     $message = $_POST["message"];
 
     // Recipient email address
@@ -17,8 +15,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $emailMessage = "You have received a new message from your website contact form.\n\n";
     $emailMessage .= "Name: $fullName\n";
     $emailMessage .= "Email: $email\n";
-    $emailMessage .= "Mobile Number: $mobileNumber\n";
-    $emailMessage .= "Subject: $subject\n";
     $emailMessage .= "Message:\n$message\n";
 
     // Additional headers
