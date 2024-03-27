@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,15 +85,18 @@
     <!--contact section-->
     <section class="contact" id="contact">
         <h2 class="heading">Contact<span>Me</span></h2>
-        <form action="https://formsubmit.co/surajram3006@gmail.com" method="POST">
+        <form action="send_email.php" method="post">
             <div class="input-box">
-            <input type="hidden" name="_captcha" value="false">
-            <input type="text" name="name" placeholder="your name" required>
-            <input type="email" name="email" placeholder="your mail">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
             </div>
-            <textarea name="Message" placeholder="Your Message" id="" cols="30" rows="10"></textarea>
-            <button type="submit" class="btn">Send</button>
-       </form>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Messsage"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
     </section>
     <!--footer section-->
     <footer class="footer">
