@@ -61,10 +61,9 @@ section{
     font-size: 3.6rem;
     color: var(--text-color);
     display:none;
-.home-image img {
-    width: 70vh;
+.home-image img{
+    width: 50vh;
     animation: floatImage 4s ease-in-out infinite;
-    box-shadow: 0 0 20px 10px rgba(139, 69, 19, 0.8);
 }
 @keyframes floatImage{
     0%{
