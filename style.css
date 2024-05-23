@@ -63,7 +63,7 @@ section{
     display:none;
 }
 .home-image img{
-    width: 70vh;
+    width: 100vh;
     animation: floatImage 4s ease-in-out infinite;
 }
 @keyframes floatImage{
