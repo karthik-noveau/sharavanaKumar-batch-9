@@ -65,6 +65,7 @@ section{
 .home-image img{
     width: 70vh;
     animation: floatImage 4s ease-in-out infinite;
+    box-shadow: 0 0 20px 10px rgba(0, 255, 255, 0.8);
 }
 @keyframes floatImage{
     0%{
