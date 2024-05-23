@@ -62,7 +62,7 @@ section{
     color: var(--text-color);
     display:none;
 .home-image img{
-    width: 50vh;
+    width: 70vh;
     animation: floatImage 4s ease-in-out infinite;
 }
 @keyframes floatImage{
