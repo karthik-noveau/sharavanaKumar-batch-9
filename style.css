@@ -61,6 +61,7 @@ section{
     font-size: 3.6rem;
     color: var(--text-color);
     display:none;
+}
 .home-image img{
     width: 70vh;
     animation: floatImage 4s ease-in-out infinite;
@@ -145,7 +146,7 @@ span{
     background: var(--second-bg-color);
 }
 .about-image img{
-    width: 70vh;
+    width: 35vh;
 }
 .heading{
     text-align: center;
@@ -237,4 +238,3 @@ span{
 .footer-text p{
     font-size: 1.6rem;
 }
-
